@@ -5,6 +5,7 @@ Conveniently store and fetch recent files
 ```bash
 cd
 touch recents.txt
+echo >> recents.txt
 git clone git@github.com:ajgateno/recents.git
 echo "alias recents=\"python3 ~/recents/recents.py\"" >> ~/.bashrc
 source ~/.bashrc
